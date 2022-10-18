@@ -1,5 +1,19 @@
-#ajuste {
-    position: absolute;
+
+#adjust {
+    margin: 20px, auto;
+    min-height: 100%;
+}
+
+
+
+#adjust div {
+    padding-bottom: 75px;
+}
+
+footer {
+    position: fixed;
     bottom: 0;
     width: 100%;
+    height: 89px;
 }
+
