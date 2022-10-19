@@ -6,8 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="icon" type="image/x-icon" href="img/icone.ico">
-    <title>Registrar</title>
+    <link rel="stylesheet" href="css/style-ind.css">
+    <link rel="shortcut icon" href="img/icone.ico" type="image/x-icon">
+    <title>Indicações</title>
 </head>
 
 <body>
@@ -36,19 +37,21 @@
                         </ul>
                     </div>
                     <div class="ms-auto p-2">
-    
+
                         <ul class="nav justify-content-end">
                             <li class="nav-item ">
                                 <a style="color: black;" class="nav-link" aria-current="page"
                                     href="cadastro.html">Registrar</a>
-    
+
                             </li>
                             <li class="nav-item ">
-                                <a style="color: black;" class="nav-link" aria-current="page" href="entrar.html">Entrar</a>
+                                <a style="color: black;" class="nav-link" aria-current="page"
+                                    href="entrar.html">Entrar</a>
                             </li>
                             <li>
                                 <form class="d-flex" role="search">
-                                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                    <input class="form-control me-2" type="search" placeholder="Search"
+                                        aria-label="Search">
                                     <button class="btn btn-outline-success active" type="submit">Pesquisa</button>
                                 </form>
                             </li>
@@ -57,88 +60,42 @@
                 </div>
         </div>
         </nav>
-        </div> 
+        </div>
     </header>
+    <div class="text-center">
+        <h1>Indicações da semana</h1>
 
-    <div class="text-center mb-3 mt-3 container-fluid">
-        <h1>Registro</h1>
+        <ol class="list-group list-group-numbered">
+            <li id="one" class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto; justify-content-center">
+                    <div class="fw-bold fs-1 text-decoration-underline" style="color: black; background-color: azure;">Nanatsu no Taizai</div>
+                    <img src="img/imgInd/nanatsu.jpg" class="img-thumbnail" alt="...">
+                </div>
+                <span class="badge bg-primary rounded-pill">👀</span>
+            </li>
+            <li id="two" class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto col">
+                    <div class="fw-bold fs-1 text-decoration-underline" style="color: black; background-color: azure;">One Punch Man</div>
+                    <img src="img/imgInd/onepunch1.png" class="img-thumbnail" alt="...">
+                </div>
+                <span class="badge bg-primary rounded-pill">👊🏼</span>
+            </li>
+    </div>
+    <li class="list-group-item d-flex justify-content-between align-items-start">
+        <div class="ms-2 me-auto">
+            <div class="fw-bold">Subheading</div>
+            <img src="" class="img-thumbnail" alt="...">
+        </div>
+        <span class="badge bg-primary rounded-pill">14</span>
+    </li>
+    </ol>
     </div>
 
 
-    <form class="row g-3; m-auto">
-        <div class="col-md-6">
-            <label for="inputEmail4" class="form-label">Email</label>
-            <input type="email" class="form-control" id="inputEmail4">
-        </div>
-        <div class="col-md-6">
-            <label for="inputPassword4" class="form-label">Senha</label>
-            <input type="password" class="form-control" id="inputPassword4">
-        </div>
-        <div class="col-12">
-            <label for="inputAddress" class="form-label"> Nome de Usuário</label>
-            <input type="text" class="form-control" id="inputUsuario">
-        </div>
-        <div class="col-12">
-            <label for="inputAddress2" class="form-label">Nome Completo</label>
-            <input type="text" class="form-control" id="inputNome">
-        </div>
-        <div class="col-md-6">
-            <label for="inputCity" class="form-label">Cidade</label>
-            <input type="text" class="form-control" id="inputCity">
-        </div>
-        <div class="col-md-4">
-            <label for="inputState" class="form-label">Estado</label>
-            <select id="inputState" class="form-select">
-                <option selected>Escolha...</option>
-                <option>AC</option>
-                <option>AL</option>
-                <option>AP</option>
-                <option>AM</option>
-                <option>BA</option>
-                <option>CE</option>
-                <option>DF</option>
-                <option>ES</option>
-                <option>GO</option>
-                <option>MA</option>
-                <option>MT</option>
-                <option>MS</option>
-                <option>MG</option>
-                <option>PA</option>
-                <option>PB</option>
-                <option>PR</option>
-                <option>PE</option>
-                <option>PI</option>
-                <option>RJ</option>
-                <option>RN</option>
-                <option>RS</option>
-                <option>RO</option>
-                <option>RR</option>
-                <option>SC</option>
-                <option>SP</option>
-                <option>SE</option>
-                <option>TO</option>
-                <option>Outro/Other</option>
 
-            </select>
-        </div>
-        <div class="col-md-4 mt-4">
-            <label for="inputAge" class="form-label">Idade</label>
-            <input type="date">
-        </div>
-        <div class="col-12">
-            <div class="form-check mt-4">
-                <label class="form-check-label" for="gridCheck">
-                    Concorda com os termos? </label>
-                <input class="form-check-input" type="checkbox" id="gridCheck">
-            </div>
-        </div>
-        <div class="col-12 mt-4">
-            <button type="button" class="btn btn-dark">Registrar</button>
-        </div>
-    </form>
 
     <footer class="bg-dark text-light mt-4">
-        <div class="container-fluid py-3">
+        <div class="container-fluid py-3 ">
             <div class="row">
                 <div class="col-4">
                     <ul class="nav flex-column">
@@ -148,7 +105,7 @@
                 <div class="col-8">
                 </div>
                 <p style="font-style: oblique; text-align: center  ; ">
-                    Biga's Awards - Eleito melhor Primeiro site já feito 
+                    Biga's Awards - Eleito melhor Primeiro site já feito
                 </p>
                 <ul class="nav">
                     <li class="nav-link"><i class="fab fa-facebook fa-3x "></i></li>
@@ -158,14 +115,13 @@
                 </ul>
             </div>
         </div>
-        </div>
+
         <div class="text-center" style="background-color: #333; padding: 20px;">
             &copy 2022 Copyright: <a
                 href="https://translate.google.com.br/?hl=pt-BR&sl=pt&tl=ja&text=Alysson&op=translate"
                 target="_blank">アリソン</a>
         </div>
     </footer>
-
 </body>
 
 </html>
