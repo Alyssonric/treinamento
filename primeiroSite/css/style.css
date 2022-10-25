@@ -1,0 +1,16 @@
+
+#adjust {
+    margin: 20px, auto;
+    min-height: 100%;
+}
+
+#adjust div {
+    padding-bottom: 75px;
+}
+
+footer {
+    position: static;
+    bottom: 0;
+    width: 100%;
+    
+}

@@ -1,12 +1,234 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="img/icone/icone.ico">
     <title>Animes</title>
 </head>
-<body>
-    
+
+<body style="background-color: whitesmoke;">
+
+    <header>
+        <div class="p-3 mb-2 bg-dark ">
+            <nav class="navbar navbar-expand-lg bg-secondary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">Alynimes</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav d-flex">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Animes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Indicações</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Resenhas</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="ms-auto p-2">
+
+                        <ul class="nav justify-content-end">
+                            <li class="nav-item ">
+                                <a style="color: black;" class="nav-link" aria-current="page"
+                                    href="cadastro.html">Registrar</a>
+
+                            </li>
+                            <li class="nav-item ">
+                                <a style="color: black;" class="nav-link" aria-current="page"
+                                    href="entrar.html">Entrar</a>
+                            </li>
+                            <li>
+                                <form class="d-flex" role="search">
+                                    <input class="form-control me-2" type="search"
+                                        style="background-color: darkgray; color: cornsilk" placeholder="Search"
+                                        aria-label="Search">
+                                    <button class="btn btn-outline-success active"
+                                        style="font-weight: bolder; color: darkgrey; background-color: darkblue;"
+                                        type="submit">Pesquisa</button>
+                                </form>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+        </div>
+        </nav>
+        </div>
+    </header>
+
+    <main id="adjust" class="ms-0">
+        <div class="row row-cols-1 row-cols-md-3 g-4 container-fluid">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/imgAnimes/Boruto.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Boruto</h5>
+                        <p class="card-text">Uzumaki Boruto, filho de Uzumaki Naruto, o Sétimo Hokage, se inscreveu na
+                            Academia Ninja para aprender a ser um verdadeiro ninja. Os outros estudantes o ignoram por
+                            ser "apenas o filho do Hokage", mas a paixão e a personalidade do Boruto vai acabar com
+                            todos esses preconceitos.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/imgAnimes/fullmetal.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Fullmetal Alchemist</h5>
+                        <p class="card-text">O descaso com as leis da alquimia tomou dois dos membros de Edward Elric e
+                            deixou a alma de Alphonse presa a uma armadura. Para recuperar o que perderam, os irmãos
+                            procuram a Pedra Filosofal. O exército corrupto, os homúnculos, alquimistas estrangeiros...
+                            Inimigos e aliados alterarão o curso dos irmãos Elric, mas nada conseguirá mudar seu
+                            propósito ou romper o elo entre os dois.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/imgAnimes/bleach.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Bleach</h5>
+                        <p class="card-text">BLEACH conta a história do Ichigo Kurosaki. Num dia ele encontra a Rukia e,
+                            a partir daí, descobre que sua vida mudou para sempre.
+                            height action.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4 container-fluid">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/imgAnimes/cavaleirosZodiaco.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Cavaleiros do Zodíaco</h5>
+                        <p class="card-text">Saint Seiya (nome original da série) conta a história de um grupo de cinco
+                            jovens guerreiros cuja função era proteger Saori Kido, reencarnação de Atena, a deusa grega
+                            da sabedoria. Para lutar, eles utilizam a energia interior e do cosmos, e suas armaduras que
+                            são inspiradas em constelações e na mitologia grega.</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/imgAnimes/goblinSlayer.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Goblin Slayer</h5>
+                        <p class="card-text">Uma jovem sacerdotisa forma seu primeiro bando de aventureiros, mas eles
+                            imediatamente se metem em apuros. É então que o Goblin Slayer vem a seu resgate - um homem
+                            que dedica sua vida a exterminar todos os goblins, custe o que custar. E quando seus feitos
+                            começam a se espalhar, ninguém sabe o que pode acontecer depois.</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/imgAnimes/atackTitan.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Atack on Titan</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This card has even longer content than the first to show that equal
+                            height action.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4 container-fluid">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/imgAnimes/my-hero-academia.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Boku no Hero Academia</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/imgAnimes/baki.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Baki</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                            content.</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/imgAnimes/megalobox.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Megalo Box</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This card has even longer content than the first to show that equal
+                            height action.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div>
+
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item disabled">
+                        <a class="page-link">Anterior</a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">Próxima</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-light mt-4">
+        <div class="container-fluid py-3 ">
+            <div class="row">
+                <div class="col-4">
+                    <ul class="nav flex-column">
+                        <li class="nav-link"><a href="index.html">Inicío</a></li>
+                    </ul>
+                </div>
+                <div class="col-8">
+                </div>
+                <p style="font-style: oblique; text-align: center  ; ">
+                    Biga's Awards - Eleito melhor Primeiro site já feito
+                </p>
+                <ul class="nav">
+                    <li class="nav-link"><i class="fab fa-facebook fa-3x "></i></li>
+                    <li class="nav-link"><i class="fab fa-instagram fa-3x"></i></li>
+                    <li class="nav-link"><i class="fab fa-twitter fa-3x"></i></li>
+                    <li class="nav-link"><i class="fab fa-whatsapp fa-3x"></i></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="text-center" style="background-color: #333; padding: 20px;">
+            &copy 2022 Copyright: <a
+                href="https://translate.google.com.br/?hl=pt-BR&sl=pt&tl=ja&text=Alysson&op=translate"
+                target="_blank">アリソン</a>
+        </div>
+    </footer>
 </body>
+
 </html>
