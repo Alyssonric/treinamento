@@ -8,7 +8,6 @@ html {
 }
 
 .container {
-    margin-inline-start: 160px;
     visibility: hidden;
 }
 
@@ -18,10 +17,8 @@ html {
 
 
 .aparece {
-    visibility: hidden;
-    position: relative; 
+    visibility: hidden; 
     
-    left: 150px;
 
 }
 

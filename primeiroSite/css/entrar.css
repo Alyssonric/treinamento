@@ -1,0 +1,25 @@
+
+body,
+html {
+    overflow-x: hidden !important;
+}
+
+.filho {
+    visibility: hidden;
+}
+
+#papito input:hover ~ .filho {
+    visibility: visible;
+}
+
+.filho2 {
+    visibility: hidden;
+}
+
+#papito2 input:hover ~.filho2 {
+    visibility: visible;
+}
+
+#pos {
+    margin-bottom: 50px;
+}
