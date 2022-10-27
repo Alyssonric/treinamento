@@ -8,9 +8,92 @@
     padding-bottom: 75px;
 }
 
-footer {
-    position: static;
-    bottom: 0;
-    width: 100%;
-    
+#efeito1:hover {
+    border: white;
+    color: navy;
+    font-weight: bolder;
+}
+
+#efeito1:active {
+    color: black;
+}
+
+#efeito2:hover {
+    border: white;
+    color: navy;
+    font-weight: bolder;
+}
+
+#efeito2:active {
+    color: black;
+}
+
+#efeito3:hover {
+    border: white;
+    color: navy;
+    font-weight: bolder;
+}
+
+#efeito3:active {
+    color: black;
+}
+
+#efeito4:hover {
+    border: white;
+    color: navy;
+    font-weight: bolder;
+}
+
+#efeito4:active {
+    color: black;
+}
+
+#efeito5:hover {
+    border: white;
+    color: navy;
+    font-weight: bolder;
+}
+
+#efeito5:active {
+    color: black;
+}
+
+#efeito6:hover {
+    border: white;
+    color: navy;
+    font-weight: bolder;
+}
+
+#efeito6:active {
+    color: black;
+}
+
+#efeito7:hover {
+    border: white;
+    color: navy;
+    font-weight: bolder;
+}
+
+#efeito7:active {
+    color: black;
+}
+
+#efeito8:hover {
+    border: white;
+    color: navy;
+    font-weight: bolder;
+}
+
+#efeito8:active {
+    color: black;
+}
+
+#efeito9:hover {
+    border: white;
+    color: navy;
+    font-weight: bolder;
+}
+
+#efeito9:active {
+    color: black;
 }
